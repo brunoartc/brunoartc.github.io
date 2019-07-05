@@ -46,7 +46,20 @@
       "@context": "http://schema.org"
     }
   </script>
+  <script src="./static/particles.min.js" defer=""></script>
+  <script src="./static/particles.config.js" defer=""></script>
   <style>
+    #particles-js {
+      position: fixed;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      z-index: -1;
+      width: 100%;
+      height: 100%
+    }
+
     html {
       box-sizing: border-box;
       display: flex;
@@ -120,8 +133,11 @@
   1st = #FF5A09-->
 </head>
 
-<body>
-  <main>
+<body >
+  <main >
+
+    <div id="particles-js"></div>
+
     <a href="/cdn-cgi/l/email-protection" class="name">
       <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="700.000000pt" height="77.000000pt"
         viewBox="0 0 700.000000 77.000000" preserveAspectRatio="xMidYMid meet" aria-label="Bruno Cesconetto" role="img">
