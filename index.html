@@ -1,82 +1,255 @@
 <!DOCTYPE html>
-<!-- dinkdmzy wt cookn://skvr.hz/ -->
-
 <html lang="en">
 
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#1793D1">
-  <title>brartc · Bruno A Cesconetto</title>
-  <link rel="stylesheet" href="./static/style.css">
-  <meta name="description" content="Bruno Arthur Cesconetto. Estudo engenharia da computação no Insper. Gosto de (des)construir coisas das mais variadas.">
-  <meta property="og:description" content="Bruno Arthur Cesconetto. Estudo engenharia da computação no Insper. Gosto de (des)construir coisas das mais variadas.">
-  <meta property="og:title" content="brunoartc · Bruno Arthur Cesconetto">
+  <meta name="theme-color" content="#111">
+
+  <title>brartc 👾 Bruno Arthur</title>
+
+  <meta name="description"
+    content="Bruno Arthur. Engenheiro da computação · Insper. Des(construtor) de coisas no geral, nunca esqueço minha toalha">
+  <meta property="og:description"
+    content="Bruno Arthur. Engenheiro da computação · Insper. Des(construtor) de coisas no geral, nunca esqueço minha toalha">
+  <meta property="og:title" content="brartc &middot; Bruno Arthur">
   <meta property="twitter:card" content="summary">
   <meta property="twitter:site" content="@brunoartc">
-  <meta property="og:image" content="https://media.licdn.com/dms/image/C4D03AQF9w6UhHcs5-w/profile-displayphoto-shrink_200_200/0?e=1544054400&v=beta&t=DtJ0ULHCjBLjPLYW5O52VctcWILWSabdV7p2kewXnaA">
-  <link rel="image_src" href="https://media.licdn.com/dms/image/C4D03AQF9w6UhHcs5-w/profile-displayphoto-shrink_200_200/0?e=1544054400&v=beta&t=DtJ0ULHCjBLjPLYW5O52VctcWILWSabdV7p2kewXnaA">
-  <link rel="apple-touch-icon" sizes="128x128" href="https://brartc.com/favicon.png">
-  <link rel="icon" type="image/png" href="./favicon.png" sizes="128x128">
-  <script>
-    window.tronExtWallet = {}
+  <meta property="og:image"
+    content="https://media.licdn.com/dms/image/C4D03AQF9w6UhHcs5-w/profile-displayphoto-shrink_200_200/0?e=1567641600&v=beta&t=ThcU1oNVZs6xBeqAdnyvO4X8PVFnaayPZTFehKk-ySo">
+  <link rel="image_src"
+    href="https://media.licdn.com/dms/image/C4D03AQF9w6UhHcs5-w/profile-displayphoto-shrink_200_200/0?e=1567641600&v=beta&t=ThcU1oNVZs6xBeqAdnyvO4X8PVFnaayPZTFehKk-ySo">
+  <link rel="apple-touch-icon" sizes="128x128" href="favicon.png">
+  <link rel="icon" type="image/png" href="favicon.png" sizes="128x128">
+  <link rel="canonical" href="https://brartc.com/">
+  <script type="application/ld+json">
+    {
+      "name": "Bruno Arthur",
+      "alternateName": "brunoartc",
+      "description": "Bruno Arthur. Engenheiro da computação · Insper. Des(construtor) de coisas no geral, nunca esqueço minha toalha",
+      "headline": "Bruno Arthur. Engenheiro da computação · Insper. Des(construtor) de coisas no geral, nunca esqueço minha toalha",
+      "url": "https://brartc.com/",
+      "image": "https://media.licdn.com/dms/image/C4D03AQF9w6UhHcs5-w/profile-displayphoto-shrink_200_200/0?e=1567641600&v=beta&t=ThcU1oNVZs6xBeqAdnyvO4X8PVFnaayPZTFehKk-ySo",
+      "sameAs": [
+        "https://github.com/brunoartc",
+        "https://br.linkedin.com/in/bruno-arthur-cesconetto-9959b6147"
+
+      ],
+      "publisher": {
+        "@type": "Organization",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://media.licdn.com/dms/image/C4D03AQF9w6UhHcs5-w/profile-displayphoto-shrink_200_200/0?e=1567641600&v=beta&t=ThcU1oNVZs6xBeqAdnyvO4X8PVFnaayPZTFehKk-ySo"
+        }
+      },
+      "@type": "WebSite",
+      "@context": "http://schema.org"
+    }
   </script>
+  <style>
+    html {
+      box-sizing: border-box;
+      display: flex;
+      justify-content: center;
+      user-select: none;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    *,
+    *:before,
+    *:after {
+      box-sizing: inherit;
+    }
+
+    html,
+    body {
+      height: 100%;
+    }
+
+    body {
+      font: normal 20px/1.4 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      margin: 0 1em;
+      padding: 1em 0;
+      color: #FFF;
+      background: #120D0A;
+      display: flex;
+    }
+
+    main {
+      margin: auto;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    a:hover,
+    a:focus {
+      outline: none;
+      color: #FF5A09 !important;
+    }
+
+    g {
+      fill: inherit;
+      text-decoration: none;
+    }
+
+
+    svg {
+      display: inline-block;
+      width: auto;
+      height: 5vw;
+      min-height: 2em;
+      fill: currentColor;
+    }
+
+    .name {
+      display: block;
+    }
+
+    .icons {
+      margin-top: .4vw;
+      display: flex;
+      justify-content: space-between;
+    }
+  </style>
+
+  <!--Inspired by xPaw-->
+  <!-- https://color.adobe.com/create/color-wheel 
+  1st = #FF5A09-->
 </head>
 
-<body itemscope="" itemtype="http://schema.org/Person">
-
-  <canvas id="simulator" width="1920" height="889"></canvas>
-  <script src="./static/particles.min.js" defer=""></script>
-  <script src="./static/particles.config.js" defer=""></script>
+<body>
   <main>
-    <div id="particles-js"></div>
-    <h1 itemprop="name">Bruno A Cesconetto</h1>
-    <meta itemprop="alternateName" content="brunoartc">
-    <meta itemprop="url" content="https://brartc.com">
-    <div class="stuff">
-      <h3>Meus Perfis</h3>
-      <ul class="profiles">
-        <li>
-          <a href="mailto:eu@brartc.com" rel="eu">
-<span class="service-wrap"><span class="service service-email">Email</span></span>
-<svg aria-hidden="true" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 20.352s-1.096-.108-1.955-.705c-.86-.596-6.58-4.688-6.58-4.688v8.098S3.513 24 4.55 24h14.9c1.036 0 1.085-.942 1.085-.942v-8.1s-5.723 4.092-6.58 4.69c-.86.595-1.955.704-1.955.704z"></path><path d="M12 .002S4.925-.23 3.465 7.624v5.35s.06.572 1.67 1.735c1.607 1.162 5.773 4.436 6.867 4.436 1.088 0 5.254-3.273 6.865-4.437 1.607-1.164 1.668-1.737 1.668-1.737v-5.35C19.075-.228 12 .004 12 .004zm4.846 10.536h-9.69V7.624C8.14 3.724 12 3.67 12 3.67s3.863.054 4.846 3.954v2.914z"></path></svg>
-<span class="muted">eu@brartc.com</span>
-</a>
-        </li>
-        <li>
-          <a href="https://github.com/brunoartc" rel="me" itemprop="sameAs">
-<span class="service-wrap"><span class="service">GitHub</span></span>
-<svg aria-hidden="true" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"></path></svg>
-<span class="muted">brunoartc</span>
-</a>
-        </li>
-        <li>
-          <a href="https://steamcommunity.com/id/1234OKOKK" rel="me" itemprop="sameAs">
-<span class="service-wrap"><span class="service">Steam</span></span>
-<svg aria-hidden="true" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M11.979 0C5.678 0 .511 4.86.022 11.037l6.432 2.658c.545-.371 1.203-.59 1.912-.59.063 0 .125.004.188.006l2.861-4.142V8.91c0-2.495 2.028-4.524 4.524-4.524 2.494 0 4.524 2.031 4.524 4.527s-2.03 4.525-4.524 4.525h-.105l-4.076 2.911c0 .052.004.105.004.159 0 1.875-1.515 3.396-3.39 3.396-1.635 0-3.016-1.173-3.331-2.727L.436 15.27C1.862 20.307 6.486 24 11.979 24c6.627 0 11.999-5.373 11.999-12S18.605 0 11.979 0zM7.54 18.21l-1.473-.61c.262.543.714.999 1.314 1.25 1.297.539 2.793-.076 3.332-1.375.263-.63.264-1.319.005-1.949s-.75-1.121-1.377-1.383c-.624-.26-1.29-.249-1.878-.03l1.523.63c.956.4 1.409 1.5 1.009 2.455-.397.957-1.497 1.41-2.454 1.012H7.54zm11.415-9.303c0-1.662-1.353-3.015-3.015-3.015-1.665 0-3.015 1.353-3.015 3.015 0 1.665 1.35 3.015 3.015 3.015 1.663 0 3.015-1.35 3.015-3.015zm-5.273-.005c0-1.252 1.013-2.266 2.265-2.266 1.249 0 2.266 1.014 2.266 2.266 0 1.251-1.017 2.265-2.266 2.265-1.253 0-2.265-1.014-2.265-2.265z"></path></svg>
-<span class="muted">R.orange</span>
-</a>
-        </li>
-        <li>
-          <a href="https://www.reddit.com/user/brunoartc/" rel="me" itemprop="sameAs">
-<span class="service-wrap"><span class="service">Reddit</span></span>
-<svg aria-hidden="true" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M2.204 14.049c-.06.276-.091.56-.091.847 0 3.443 4.402 6.249 9.814 6.249 5.41 0 9.812-2.804 9.812-6.249 0-.274-.029-.546-.082-.809l-.015-.032c-.021-.055-.029-.11-.029-.165-.302-1.175-1.117-2.241-2.296-3.103-.045-.016-.088-.039-.126-.07-.026-.02-.045-.042-.067-.064-1.792-1.234-4.356-2.008-7.196-2.008-2.815 0-5.354.759-7.146 1.971-.014.018-.029.033-.049.049-.039.033-.084.06-.13.075-1.206.862-2.042 1.937-2.354 3.123 0 .058-.014.114-.037.171l-.008.015zm9.773 5.441c-1.794 0-3.057-.389-3.863-1.197-.173-.174-.173-.457 0-.632.176-.165.46-.165.635 0 .63.629 1.685.943 3.228.943 1.542 0 2.591-.3 3.219-.929.165-.164.45-.164.629 0 .165.18.165.465 0 .645-.809.808-2.065 1.198-3.862 1.198l.014-.028zm-3.606-7.573c-.914 0-1.677.765-1.677 1.677 0 .91.763 1.65 1.677 1.65s1.651-.74 1.651-1.65c0-.912-.739-1.677-1.651-1.677zm7.233 0c-.914 0-1.678.765-1.678 1.677 0 .91.764 1.65 1.678 1.65s1.651-.74 1.651-1.65c0-.912-.739-1.677-1.651-1.677zm4.548-1.595c1.037.833 1.8 1.821 2.189 2.904.45-.336.719-.864.719-1.449 0-1.002-.815-1.816-1.818-1.816-.399 0-.778.129-1.09.363v-.002zM2.711 9.963c-1.003 0-1.817.816-1.817 1.818 0 .543.239 1.048.644 1.389.401-1.079 1.172-2.053 2.213-2.876-.302-.21-.663-.329-1.039-.329v-.002zm9.217 12.079c-5.906 0-10.709-3.205-10.709-7.142 0-.275.023-.544.068-.809C.494 13.598 0 12.729 0 11.777c0-1.496 1.227-2.713 2.725-2.713.674 0 1.303.246 1.797.682 1.856-1.191 4.357-1.941 7.112-1.992l1.812-5.524.404.095s.016 0 .016.002l4.223.993c.344-.798 1.138-1.36 2.065-1.36 1.229 0 2.231 1.004 2.231 2.234 0 1.232-1.003 2.234-2.231 2.234s-2.23-1.004-2.23-2.23l-3.851-.912-1.467 4.477c2.65.105 5.047.854 6.844 2.021.494-.464 1.144-.719 1.833-.719 1.498 0 2.718 1.213 2.718 2.711 0 .987-.54 1.886-1.378 2.365.029.255.059.494.059.749-.015 3.938-4.806 7.143-10.72 7.143l-.034.009zm8.179-19.187c-.74 0-1.34.599-1.34 1.338 0 .738.6 1.34 1.34 1.34.732 0 1.33-.6 1.33-1.334 0-.733-.598-1.332-1.347-1.332l.017-.012z"></path></svg>
-<span class="muted">brunoartc</span>
-</a>
-        </li>
-        <li>
-          <a href="https://twitter.com/brunoartc" rel="me" itemprop="sameAs">
-<span class="service-wrap"><span class="service">Twitter</span></span>
-<svg aria-hidden="true" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M23.954 4.569c-.885.389-1.83.654-2.825.775 1.014-.611 1.794-1.574 2.163-2.723-.951.555-2.005.959-3.127 1.184-.896-.959-2.173-1.559-3.591-1.559-2.717 0-4.92 2.203-4.92 4.917 0 .39.045.765.127 1.124C7.691 8.094 4.066 6.13 1.64 3.161c-.427.722-.666 1.561-.666 2.475 0 1.71.87 3.213 2.188 4.096-.807-.026-1.566-.248-2.228-.616v.061c0 2.385 1.693 4.374 3.946 4.827-.413.111-.849.171-1.296.171-.314 0-.615-.03-.916-.086.631 1.953 2.445 3.377 4.604 3.417-1.68 1.319-3.809 2.105-6.102 2.105-.39 0-.779-.023-1.17-.067 2.189 1.394 4.768 2.209 7.557 2.209 9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63.961-.689 1.8-1.56 2.46-2.548l-.047-.02z"></path></svg>
-<span class="muted">brunoartc</span>
-</a>
-        </li>
-      </ul>
-      <h3>Meus projetos atuais</h3>
-      <ul class="projects">
-        <li><a href="https://broapp.com.br">broapp</a></li>
-        <li><a href="https://www.facebook.com/BlockchainInsper/">B.I.</a></li>
-      </ul>
-    </div>
+    <a href="/cdn-cgi/l/email-protection" class="name">
+      <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="700.000000pt" height="77.000000pt"
+        viewBox="0 0 700.000000 77.000000" preserveAspectRatio="xMidYMid meet" aria-label="Bruno Cesconetto" role="img">
+        <metadata>
+          Created by potrace 1.12, written by Peter Selinger 2001-2015
+        </metadata>
+        <g transform="translate(0.000000,77.000000) scale(0.100000,-0.100000)" fill="#ffffff" stroke="none">
+          <path d="M40 750 c0 -16 7 -20 35 -20 l35 0 -2 -247 -3 -248 -30 0 c-23 0 -30
+          -4 -30 -20 0 -19 7 -20 175 -20 155 0 179 2 214 20 55 28 78 64 84 127 5 64
+          -22 110 -82 144 -33 19 -36 23 -19 28 93 30 96 189 4 235 -36 19 -58 21 -211
+          21 -163 0 -170 -1 -170 -20z m337 -54 c32 -37 32 -105 0 -142 -21 -24 -30 -26
+          -103 -28 l-79 -1 -3 89 c-2 49 0 96 3 104 4 12 21 14 82 10 68 -5 79 -8 100
+          -32z m-8 -227 c38 -13 61 -54 61 -108 0 -52 -14 -86 -43 -105 -27 -18 -133
+          -32 -171 -22 l-26 6 0 114 c0 62 3 116 7 119 11 11 137 8 172 -4z"></path>
+          <path d="M2819 750 c-49 -26 -104 -92 -123 -148 -23 -66 -21 -196 4 -250 31
+          -67 57 -100 107 -129 83 -48 209 -49 280 -1 35 24 96 111 86 122 -4 3 -19 6
+          -34 6 -22 0 -32 -8 -51 -42 -13 -23 -38 -49 -58 -60 -43 -23 -120 -24 -166 -2
+          -74 35 -118 174 -95 302 23 131 80 187 187 185 82 -2 134 -40 154 -112 4 -17
+          13 -26 26 -26 17 0 19 8 19 69 l0 69 -50 18 c-73 26 -237 25 -286 -1z"></path>
+          <path d="M6008 668 c-3 -61 -4 -63 -33 -68 -21 -4 -30 -11 -30 -25 0 -14 9
+          -21 30 -25 l30 -5 5 -157 c6 -191 10 -198 106 -198 57 0 64 2 88 31 34 40 34
+          69 2 69 -17 0 -29 -9 -38 -28 -15 -30 -65 -43 -79 -20 -5 7 -9 79 -9 160 l0
+          147 62 3 c50 2 63 6 66 21 3 14 -5 17 -50 17 -29 0 -58 4 -65 8 -6 4 -13 34
+          -15 67 -3 59 -3 60 -35 63 l-32 3 -3 -63z"></path>
+          <path d="M6317 724 c-4 -4 -7 -34 -7 -66 0 -57 -1 -59 -30 -65 -39 -7 -37 -37
+          3 -41 l27 -3 0 -138 c0 -144 10 -195 40 -211 33 -18 135 -12 152 8 20 23 38
+          69 31 76 -15 15 -44 3 -58 -24 -12 -23 -22 -30 -46 -30 -43 0 -50 29 -47 184
+          l3 131 65 5 c57 4 65 8 65 25 0 17 -6 19 -34 17 -19 -2 -49 -1 -68 3 l-34 6 2
+          62 3 62 -30 3 c-16 2 -33 0 -37 -4z"></path>
+          <path d="M795 591 c-11 -5 -29 -19 -40 -31 l-20 -22 -5 24 c-5 21 -12 23 -73
+          26 -62 3 -67 1 -67 -18 0 -15 6 -20 29 -20 17 0 31 -6 35 -16 8 -21 6 -197 -2
+          -254 -6 -40 -10 -45 -32 -45 -18 0 -25 -5 -25 -20 0 -19 7 -20 105 -20 98 0
+          105 1 105 20 0 16 -7 20 -35 20 l-35 0 -3 113 c-3 135 10 174 64 192 43 14 73
+          5 84 -26 6 -15 18 -24 30 -24 19 0 21 5 18 53 l-3 52 -55 2 c-30 1 -64 -2 -75
+          -6z"></path>
+          <path d="M992 593 c-34 -3 -43 -8 -40 -21 2 -10 14 -18 30 -20 l26 -3 4 -137
+          c4 -149 15 -186 62 -212 44 -23 110 -17 150 13 l35 27 3 -23 c3 -20 8 -22 68
+          -22 58 0 65 2 65 20 0 14 -7 20 -23 20 -12 0 -27 7 -32 15 -5 8 -10 88 -10
+          178 l0 162 -66 0 c-57 0 -65 -2 -62 -17 2 -11 14 -19 31 -21 l29 -3 -4 -129
+          c-3 -120 -5 -130 -27 -154 -19 -20 -34 -26 -68 -26 -66 0 -73 18 -78 202 -5
+          173 3 160 -93 151z"></path>
+          <path d="M1655 588 c-11 -6 -30 -20 -42 -31 l-23 -20 0 26 c0 27 -1 27 -70 27
+          -63 0 -70 -2 -70 -20 0 -16 7 -20 35 -20 l35 0 0 -155 c0 -117 -3 -155 -12
+          -156 -7 -1 -20 -2 -28 -3 -8 0 -16 -11 -18 -23 -3 -22 -1 -23 92 -23 55 0 98
+          4 101 10 8 13 -14 42 -25 35 -5 -3 -15 -2 -24 1 -13 5 -16 24 -16 101 0 148
+          22 198 91 209 25 4 41 1 59 -14 24 -20 25 -23 25 -159 l0 -138 -25 0 c-18 0
+          -25 -5 -25 -20 0 -19 7 -20 95 -20 88 0 95 1 95 20 0 13 -7 20 -20 20 -42 0
+          -45 11 -45 141 0 142 -12 184 -59 208 -35 18 -97 20 -126 4z"></path>
+          <path d="M2080 589 c-36 -15 -79 -59 -97 -99 -8 -20 -15 -64 -15 -102 0 -126
+          70 -198 191 -198 70 0 107 15 144 59 36 43 50 94 45 166 -5 80 -41 138 -101
+          166 -45 20 -126 24 -167 8z m145 -53 c57 -57 60 -222 4 -282 -28 -30 -107 -34
+          -135 -7 -41 42 -57 150 -34 235 21 75 114 105 165 54z"></path>
+          <path d="M3380 589 c-70 -28 -111 -103 -111 -201 0 -130 68 -198 196 -198 81
+          0 120 20 153 78 23 42 21 52 -13 52 -16 0 -27 -9 -35 -30 -7 -17 -22 -37 -34
+          -45 -28 -20 -106 -19 -135 1 -28 20 -51 72 -51 114 l0 30 146 0 147 0 -6 51
+          c-8 68 -33 108 -86 136 -47 25 -125 30 -171 12z m137 -44 c24 -17 48 -78 39
+          -100 -4 -12 -26 -15 -100 -15 -54 0 -98 4 -101 10 -11 17 15 79 42 100 31 24
+          89 26 120 5z"></path>
+          <path d="M3783 586 c-61 -28 -83 -117 -40 -160 13 -13 62 -38 111 -56 107 -40
+          131 -75 86 -120 -15 -15 -33 -20 -75 -20 -57 0 -82 14 -111 65 -16 28 -34 9
+          -34 -36 0 -36 3 -41 35 -55 20 -8 67 -14 110 -14 115 0 165 35 165 115 0 56
+          -33 85 -133 121 -87 30 -107 45 -107 78 0 34 31 56 79 56 53 0 77 -12 96 -50
+          24 -46 45 -39 45 15 0 40 -3 47 -27 56 -46 19 -164 21 -200 5z"></path>
+          <path d="M4228 587 c-69 -31 -107 -99 -108 -193 0 -92 35 -156 107 -193 37
+          -19 143 -14 180 9 32 19 63 66 63 95 0 29 -40 16 -61 -20 -27 -45 -46 -55
+          -103 -55 -72 0 -106 53 -106 165 0 111 37 165 114 165 52 0 81 -20 96 -65 8
+          -24 18 -35 31 -35 16 0 19 7 19 54 l0 54 -47 16 c-54 18 -146 20 -185 3z"></path>
+          <path d="M4652 579 c-59 -29 -92 -82 -99 -156 -6 -71 9 -132 43 -173 39 -46
+          74 -60 151 -60 57 0 75 4 106 25 55 38 79 93 79 181 -1 79 -13 113 -59 156
+          -56 53 -146 64 -221 27z m146 -35 c38 -26 52 -67 52 -149 0 -56 -5 -86 -20
+          -114 -21 -43 -35 -51 -86 -51 -78 0 -108 46 -108 165 0 84 17 134 51 154 27
+          16 86 13 111 -5z"></path>
+          <path d="M5205 588 c-11 -6 -30 -20 -42 -31 l-23 -20 0 26 c0 27 -1 27 -70 27
+          -63 0 -70 -2 -70 -20 0 -16 7 -20 35 -20 l35 0 0 -155 c0 -117 -3 -155 -12
+          -157 -7 0 -20 -1 -28 -2 -8 -1 -16 -11 -18 -23 -3 -22 -1 -23 93 -23 94 0 96
+          1 93 22 -2 13 -10 23 -18 24 -8 1 -21 2 -27 2 -21 3 -17 208 5 252 21 43 61
+          64 103 55 48 -11 60 -53 57 -193 l-3 -117 -25 0 c-18 0 -25 -5 -25 -20 0 -19
+          7 -20 95 -20 88 0 95 1 95 20 0 13 -7 20 -20 21 -11 1 -25 2 -32 3 -8 1 -12
+          45 -15 144 -3 154 -12 182 -64 205 -31 15 -93 15 -119 0z"></path>
+          <path d="M5630 589 c-33 -13 -78 -56 -98 -94 -24 -46 -21 -159 6 -212 33 -64
+          74 -87 158 -91 51 -3 80 0 102 12 35 18 82 75 82 99 0 24 -47 22 -55 -2 -3
+          -10 -17 -31 -30 -45 -20 -22 -33 -26 -78 -26 -43 0 -58 5 -74 23 -31 34 -43
+          62 -43 101 l0 36 145 0 145 0 0 33 c-1 66 -53 143 -113 166 -35 13 -113 13
+          -147 0z m136 -48 c26 -24 48 -76 40 -96 -8 -22 -194 -22 -202 0 -10 25 5 65
+          33 91 33 30 99 33 129 5z"></path>
+          <path d="M6675 580 c-127 -63 -138 -283 -18 -365 49 -33 160 -36 210 -5 98 59
+          123 223 50 323 -48 63 -164 86 -242 47z m149 -35 c35 -23 51 -71 50 -155 0
+          -114 -31 -160 -109 -160 -77 0 -105 44 -105 165 0 82 14 123 52 149 29 20 82
+          20 112 1z"></path>
+        </g>
+      </svg></a>
+    <div class="icons">
+      <a href="https://github.com/brunoartc"><svg aria-label="GitHub profile" role="img" viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+        </svg></a>
+
+
+      <a href="https://www.blockchainsper.com/"><svg xmlns="http://www.w3.org/2000/svg" aria-label="GitHub profile"
+          role="img" viewBox="0 0 105 79">
+          <title>BI-Vertical-FundoEscuro</title>
+          <g id="Layer_2" data-name="Layer 2" transform="scale(1.9)">
+            <g id="Layer_1-2" data-name="Layer 1">
+              <path
+                d="M21.35,31.75V34h0l1.68,1,12,6.93,2.33-4,1.91,1.11h0L53,31l-2.32-4,1.91-1.1h0V10.11H47.89V7.9h0L34.21,0,31.89,4,30,2.92h0l-13.68,7.9,2.33,4L16.7,16h0v15.8Zm29.52-20V24.94L39,31.78l-2.64-1.5L47.9,23.5V21.57h0V11.79Zm-23.54,5,7.23-4.25,7.3,4.14.06,8.39-7.24,4.25-7.29-4.14Zm7.5-14.5L46.21,8.87V22.55l-2.62,1.54-.1-13.37-1.68-1h0L33.34,4.87ZM18.58,11.43,30,4.86,41.82,11.7l0,3L30.21,8.15l-1.67,1h0L20.07,14Zm-.2,18.64V16.92l11.85-6.84,2.65,1.5L21.35,18.36v1.93h0v9.78Zm16,9.5L23,33V19.31l2.62-1.54.11,13.37,1.68,1h0L35.91,37Zm-7-9.41,0-3L39,33.71l1.68-1h0l8.47-4.89,1.48,2.58L39.27,37Z" />
+            </g>
+          </g>
+        </svg></a>
+
+
+      <a href="https://br.linkedin.com/in/bruno-arthur-cesconetto-9959b6147"><svg aria-label="Linkedin profile"
+          role="img" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+          <path
+            d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+        </svg></a>
   </main>
+  <!--sse-->
+  <script>
+    (async () => {
+      if (navigator.webdriver || document.visibilityState === 'prerender' || !location.hostname) {
+        return;
+      }
+
+      document.querySelector('a[href="/cdn-cgi/l/email-protection"]').href = `\x6dailto:eu\x40${location.hostname}`;
+    })();
+  </script>
+  <!--/sse-->
+</body>
+
+</html>
