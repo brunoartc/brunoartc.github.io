@@ -1,0 +1,69 @@
+==================================================================
+https://keybase.io/brunoartc
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://brartc.com
+  * I am brunoartc (https://keybase.io/brunoartc) on keybase.
+  * I have a public key with fingerprint 79A3 C948 6E4C 6442 31C3  B745 3D76 3EDF B89F BAF1
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01016ab7360066de4a50ba971bf8550a725735448b7b7f0977bc5c2a2d6fdab9bf0a0a",
+      "fingerprint": "79a3c9486e4c644231c3b7453d763edfb89fbaf1",
+      "host": "keybase.io",
+      "key_id": "3d763edfb89fbaf1",
+      "kid": "01016ab7360066de4a50ba971bf8550a725735448b7b7f0977bc5c2a2d6fdab9bf0a0a",
+      "uid": "e33a255f5dfecc6832a2e9c44c608d19",
+      "username": "brunoartc"
+    },
+    "service": {
+      "hostname": "brartc.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1594567533,
+  "expire_in": 157680000,
+  "prev": "f0b374b7262c091bcd1c8fc178a0683f251a406a8054f711d88e9283375d0fa3",
+  "seqno": 4,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owGtkm1sFEUYx++gWHp9scEIxVhe1kIIrTi7s7uze5HGFDXWNmigllbQY2Z2tl3a
+7l739k4PqOFFCxYp/QCYWCzaVoEqtmpEpAhNMBFaIYogCtKGDwQxJcaSFCspOtuI
+n/zofJnMM7//f/7Pk2nJnBwIBRcnCocO7z3ye3DgOglE0vPr1wnEMZJCeJ1QwyY2
+VmuwmBepsQwhLAARiComCKoAqKrBZKwAgnUkElNTFICRpCCoyLJGEEEm0BEiVKES
+lgzVNDDRiQkwwEKBYFp2FXOjrmV73BbpGFJd1lQmU1WWJShSSJCsQAOpkBkm0XST
+YFPkwmon5it4OIJjbJHl8Bo/RCbi/Qf/P+eOT9gxCLGkKKZimIxSVYOcZDqVeXqg
+GaLugzHm2riOcZq4cdvBrkeFhgKBlxMWZf5k/Vb+Rfz7RdSp49Ko63gOdWp5vdrz
+orGwr/OSUR98iZHIPxYRYtkGHyNXJJgbsxxbCIucpJ7le4qKLisqUiAsENjLUctl
+EcsnFKRqgC//HZbgliYgEMkErZBUiQJdJNQQqWZSEWkY8N5MSRGxDFSsAUU2kSga
+msZ0SYMQKQYwMRT8ruptRwjLPCeu4p4xq8rGXtxlQkPo9eCnKYFgKJA7fW5KsuPU
+U3apUSSe+PyJu19vyiT/3wVCadl3K698mBHYm3OVPtqXGjx8XPhunnn8VlHvoZnF
+w+2XFm7JO/Zbcc5A29X2+aOvtqkb+qaOZfe2VZ+Jf9n5Z9HpTSdDqzI79cfbc6+c
+O2/MaKxb+8D7qQ0zeza9/fwqb1tp1rfTW9LfjQbLI2nlR9Z8IDXfvJZy5+jTGX1T
+1rZNa31h1jNdN0O3P7mne3TQW9gd/0opOZB85Mk70S/+eOtgSedqq+Te4Rc/K964
+uz9D3MG2V1Q0HrzR9PXIGe9sPa2kj5WvZA8vXz27+/TOH+fsmXbi48r149cXz29S
+W/fltqzsbk8FXc8N7Zw8snkoc7AscuHUXPhr3tYb1zYvmPVe6b6c8jpt0OtP3t6e
+duGb+964tTy74K/8po6uqf32WGv4bPHSN8EVddv+Phj9qGN8F1q29Z2NGUvH4hd7
+Kmq/v1w78uxYYkFK2fiBmrbdjReH5z2Uviv9ECm0l/00e4N7/yTtWM+SshXNWWse
+XH+pd8ll/YdzLYV7doyaeXnn9TlburKs/LSykz+b1i+wMjtzxmvDA0eb9/8N
+=kmLT
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/brunoartc
+
+==================================================================
